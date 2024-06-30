@@ -1,0 +1,649 @@
+
+
+                                    /* Google fonts link*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zeyada&display=swap');
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+                                                                    /* Navigation bar */
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.nav{
+    width: 100%;
+    height: 110px;
+    background-color: #30303b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    right: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    list-style: none;
+}
+ul li{
+    margin: 10px 35px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
+    color: white;
+    transition: all .2s ease;
+}
+ul li a:hover{
+    color:  #c1bfbb;
+    font-size: 14px;
+}
+
+
+
+
+
+                                                /* Logo */
+
+
+.logo{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 170px;
+}
+
+
+
+
+
+
+                                                /* Main info */
+.main_info{
+    bottom: 20px;
+    width: 90%;
+    height: 600px;
+    position: relative;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+                                                 /* Profile image */
+.pro_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: #30303b solid 1px;
+    position: relative;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pro_img img{
+    width: 90%;
+}                                           
+
+
+
+
+
+                                                    /* Profile texts */
+.pro_text{
+    bottom: 10px;
+    position: relative;
+    left: 40px;
+    text-align: center;
+}
+
+
+.pro_text h3{
+    color: #30303b;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 25px;
+    
+}
+.pro_text h2{
+    color: #30303b;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.pro_text h1{
+    margin: 20px;
+    color: #30303b;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 55px;
+}
+
+
+
+                                                                /* Profile buttons */
+.pro_text button{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 20px;
+    border: 1px solid #30303b;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: white;
+    font-family: "Comfortaa", sans-serif;
+    color: #30303b;
+    cursor: pointer;
+    transition: all .2s ease
+    
+}
+
+.pro_text button:hover{
+    background-color: #30303b;
+    color: #ffffff;
+}
+
+
+
+                                                            /* about */
+
+            
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #30303b;
+    border-radius: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+                                                            /* about title */
+.title_white{
+    text-align: center;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 35px;
+
+}
+
+.about_container h3{
+    text-align: center;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+                                                        /* about content */
+
+.ab_cont{
+    width: 500px;
+    height: 270px;
+    border: white 3px solid;
+    position: relative;
+    border-radius: 40px;
+    left: 500px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease; 
+    z-index: 2;
+}
+
+.ab_cont:hover{
+    scale: 1.05;
+}
+
+                                    /* Education logo image */
+
+.ab_cont img{
+    position: relative;
+    bottom: 50px;
+    width: 7%;
+}
+
+
+                                        /* Education heading */
+.ab_cont h1{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    bottom: 40px;
+    letter-spacing: 2px;
+
+}
+.ab_cont h2{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    bottom: 20px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+
+                                /* About starting shape */
+
+.shape{
+    position: relative;
+    top: 45px;
+    height: 384px;
+    width: 100%;
+    background-color: rgb(29, 65, 98);
+    background-color: #30303b;
+    z-index: 1;
+}
+
+
+                                                    /* Explain */
+
+.shape .explain{
+    left: 350px;
+    position: relative;
+    top: 60px;
+    text-align: justify;
+    width: 800px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+                                                                /* project */
+
+.project{
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+    height: 550px;
+    background-color: #30303b;
+}
+
+
+.pshape{
+    position: relative;
+    top: 310px;
+    width: 100%;
+    height: 600px;
+    background-color: #30303b;
+    border-radius: 90%;
+    z-index: 1;
+}
+
+
+                                                        /* Project title */
+
+.project .ptitle{
+    position: relative;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    top: 70px;
+    font-size: 35px;
+    z-index: 4;
+   
+}
+
+                                                    /* Project Container */
+
+.project_container{
+    width: 100%;
+    height: 508px;
+    position: absolute;
+    background-color: #30303b;
+    top: 139px ;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+                                                    /* Project divs */
+.pro{
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: 135px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.pro1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.pro img{
+    width: 100%;
+
+    object-fit: cover;
+}
+.pro2 img{
+    width: 120%;
+}
+
+.pro3 img{
+    width: 130%;
+}
+.pro4 img{
+    width: 120%;
+}
+.pro5 img{
+    width: 120%;
+}
+.pro6 img{
+    width: 120%;
+}
+
+
+                                                        /* Pro1 hover Div */
+
+.p1info{
+    position: absolute;
+    background-color: #30303b98;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -100%;
+    transition: all .2s ease;
+   
+}
+
+.pro1:hover .p1info{
+    top: 0;
+}
+
+                                                /* Pro1 hover Div content */
+
+.p1info .p1h,.p1i{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+.p1info .p1h{
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+.p1info .p1h:hover{
+    font-size: 23px;
+    text-decoration: underline;
+}
+.p1info .p1i{
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
+                                                /* Skills */
+                    
+.skills{
+    position: relative;
+    top: 394px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 7;
+    
+}
+
+.skills_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ski{
+    width: 270px;
+    height: 400px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+    transition: all .2s ease;
+}
+
+.ski:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.ski h1{
+    font-family: "Poppins", sans-serif;
+    color:rgba(0, 0, 0, 0.589);
+    font-size: 20px;
+    
+}
+
+
+.ski1 img{
+    width: 90%;
+}
+.ski2 img{
+    width: 90%;
+}
+.ski3 img{
+
+    width: 80%;
+    opacity: 80%;
+}
+.ski4 img{
+    width: 80%;
+    opacity: 60%;
+}
+.ski3 h1{
+    position: relative;
+    top: 20px;
+}
+.ski4 h1{
+    position: relative;
+    top: 20px;
+}
+
+.stitle{
+    position: relative;
+    color: #30303b;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 35px;
+    z-index: 12;
+    top: 70px;
+    text-align: center;
+
+}
+
+
+.contact{
+    top: 394px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:#30303b;
+    z-index: 13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_container{
+    width: 80%;
+    height: 80%;
+}
+
+.cont_title{
+    position: relative;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    top: 70px;
+    font-size: 35px;
+    z-index: 15;
+}
+
+.cont_links{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #30303b;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    border-radius: 50px;
+    transition: all .2s ease;
+}
+
+.cont_links:hover{
+    scale: 1.05;
+}
+
+.gmail_icon{
+    width: 5%;
+    background-color: white;
+    border: 0.1px solid #30303b8c;
+    border-radius: 90%;
+    position: relative;
+    left: 75px;
+    top: 100px;
+
+}
+
+.mail_address{
+    color: #30303b;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 13PX;
+    position: relative;
+    left: 80px;
+    top: 95px;
+}
+
+.linkedin{
+    width: 5%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 90%;
+    position: relative;
+    border: 0.4px solid #30303b;
+    left: -125px;
+    top: 150px;
+}
+
+.linkedin_link{
+    color: #30303b;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 13PX;
+    position: relative;
+    top: 145px;
+    right: 120px;
+}
+
+.phone{
+    position: relative;
+    width: 5%;
+    top: 197px;
+    right: 204px;
+    border-radius: 50%;
+    border: 0.4px solid #30303b;
+}
+
+.phone_number{
+    color: #30303b;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12PX;
+    position: relative;
+    top: 193px;
+    right: 200px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 575px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    padding: 50px;
+    transition: all .2s ease;
+}
+
+.footer a:hover{
+    font-size: 20px;
+}
+
+.foo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 670px;
+    background-color: white;
+    border-radius: 50px;
+}
+
