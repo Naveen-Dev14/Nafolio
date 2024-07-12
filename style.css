@@ -30,7 +30,7 @@
 
 .nav{
     width: 100%;
-    height: 110px;
+    height: 120px;
     background-color: #30303b;
     display: flex;
     justify-content: space-between;
@@ -101,6 +101,7 @@ ul li a:hover{
     height: 300px;
     border-radius: 50%;
     border: #30303b solid 1px;
+    top: 70px;
     position: relative;
     right: 40px;
     display: flex;
@@ -120,6 +121,7 @@ ul li a:hover{
                                                     /* Profile texts */
 .pro_text{
     bottom: 10px;
+    top: 40px;
     position: relative;
     left: 40px;
     text-align: center;
@@ -130,11 +132,13 @@ ul li a:hover{
     color: #30303b;
     font-family: "Comfortaa", sans-serif;
     font-size: 25px;
+    margin-top: 30px;
     
 }
 .pro_text h2{
     color: #30303b;
     font-family: "Comfortaa", sans-serif;
+    margin-top: 30px;
 }
 
 .pro_text h1{
@@ -142,6 +146,7 @@ ul li a:hover{
     color: #30303b;
     font-family: "Comfortaa", sans-serif;
     font-size: 55px;
+    margin-top: 30px;
 }
 
 
@@ -151,7 +156,7 @@ ul li a:hover{
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
-    top: 20px;
+    top: 35px;
     border: 1px solid #30303b;
     border-radius: 25px;
     font-size: 15px;
@@ -189,6 +194,7 @@ ul li a:hover{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
                                                             /* about title */
@@ -219,7 +225,7 @@ ul li a:hover{
     border: white 3px solid;
     position: relative;
     border-radius: 40px;
-    left: 500px;
+   
     top: 80px;
     display: flex;
     flex-direction: column;
@@ -268,20 +274,23 @@ ul li a:hover{
                                 /* About starting shape */
 
 .shape{
+    
+   
     position: relative;
-    top: 45px;
-    height: 384px;
+    top: 117px;
+    height: 494px;
     width: 100%;
     background-color: rgb(29, 65, 98);
     background-color: #30303b;
     z-index: 1;
+    display: flex;justify-content: center;
 }
 
 
                                                     /* Explain */
 
 .shape .explain{
-    left: 350px;
+   
     position: relative;
     top: 60px;
     text-align: justify;
@@ -339,8 +348,8 @@ ul li a:hover{
     z-index: 3;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
                                                     /* Project divs */
 .pro{
@@ -349,12 +358,12 @@ ul li a:hover{
     background-color: #ffffff;
     position: relative;
     top: 50px;
-    left: 135px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin: auto;
 }
 .pro1{
     display: flex;
@@ -414,14 +423,15 @@ ul li a:hover{
     text-align: justify;
     padding: 10px;
 }
-.p1info .p1h{
-    font-size: 20px;
+.p1info a{
+    font-size: 10px;
     text-decoration: none;
     transition: all .2s ease;
 }
-.p1info .p1h:hover{
-    font-size: 23px;
-    text-decoration: underline;
+.p1info a:hover{
+    text-decoration: underline white;
+    font-size: 13px;
+   
 }
 .p1info .p1i{
     font-weight: normal;
@@ -524,8 +534,12 @@ ul li a:hover{
 }
 
 .contact_container{
-    width: 80%;
+    width: 100%;
     height: 80%;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
 }
 
 .cont_title{
@@ -545,7 +559,7 @@ ul li a:hover{
     border: 2px solid #30303b;
     position: relative;
     top: 120px;
-    left: 400px;
+   
     border-radius: 50px;
     transition: all .2s ease;
 }
@@ -560,7 +574,7 @@ ul li a:hover{
     border: 0.1px solid #30303b8c;
     border-radius: 90%;
     position: relative;
-    left: 75px;
+    left: 73px;
     top: 100px;
 
 }
@@ -571,8 +585,8 @@ ul li a:hover{
     font-family: "Poppins", sans-serif;
     font-size: 13PX;
     position: relative;
-    left: 80px;
-    top: 95px;
+    left: 105px;
+    top:78px;
 }
 
 .linkedin{
@@ -581,8 +595,8 @@ ul li a:hover{
     border-radius: 90%;
     position: relative;
     border: 0.4px solid #30303b;
-    left: -125px;
-    top: 150px;
+    left:73px ;
+    top: 110px;
 }
 
 .linkedin_link{
@@ -591,15 +605,16 @@ ul li a:hover{
     font-family: "Poppins", sans-serif;
     font-size: 13PX;
     position: relative;
-    top: 145px;
-    right: 120px;
+    top: 105px;
+    left: 83px;
+    
 }
 
 .phone{
     position: relative;
     width: 5%;
-    top: 197px;
-    right: 204px;
+    top: 160px;
+    right: 6px;
     border-radius: 50%;
     border: 0.4px solid #30303b;
 }
@@ -608,17 +623,18 @@ ul li a:hover{
     color: #30303b;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
-    font-size: 12PX;
+    font-size: 12px;
+    color: #30303b;
     position: relative;
-    top: 193px;
-    right: 200px;
+    top: 137px;
+    left: 107px;
 }
 
 .footer{
     width: 100%;
     height: 200px;
     position: absolute;
-    top: 575px;
+    top: 595px;
     display: flex;
     justify-content: center;
 }
